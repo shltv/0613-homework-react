@@ -1,0 +1,36 @@
+#logo {
+    width: 20%;
+}
+
+.header-wrapper {
+    display: flex;
+    flex-direction: row;
+    background-color: darkslategray;
+    padding-left: 2%;
+    justify-content: space-between;
+    padding-right: 5%;
+}
+
+.logo-search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+input {
+    background-color: #597272;
+    border: none;
+    border-radius: 30px;
+    padding: 0.5% 0%;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    color: antiquewhite;
+}
+
+@media (max-width: 800px) {
+    h2 {
+        display: none;
+    }
+}
